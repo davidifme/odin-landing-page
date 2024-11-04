@@ -64,10 +64,39 @@ body {
 }
 
 .hero-image {
-    max-width: 38vw;
+    width: 38vw;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    gap: 30px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.info-image {
+    width: 15vw;
+    min-height: 10vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.info-container {
+    text-align: center;
+}
+
+.info-text {
+    font-weight: 225;
 }
 
 button {
@@ -84,6 +113,12 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .hero-text-container p {
