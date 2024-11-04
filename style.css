@@ -26,6 +26,11 @@ body {
     width: 80vw;
 }
 
+.header-content,
+.hero-content {
+    width: 80vw;
+}
+
 .header-links a {
     font-size: 18px;
     color: #e5e7eb;
@@ -39,6 +44,40 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text-container p {
+    max-width: 48ch;
+}
+
+.hero-image {
+    max-width: 38vw;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 20px;
 }
 
 h1 {
